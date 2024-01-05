@@ -30,9 +30,10 @@ ssh-add ~/id_rsa_efcanchari
 clone a repository using specific account
 ```
 git clone git@github.com-{bitbucket_username}:{workspace}/{repo}.git
+```
 
 #example
-git clone github.com-efcanchari:efcanchari/bootcamp-module-1-challenge.git
+```
 git clone github.com-efcanchari:efcanchari/password-generator.git
 ```
 
