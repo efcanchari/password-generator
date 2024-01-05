@@ -88,8 +88,33 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+
+function numericValue(title,min,max){
+  let message = "";
+  let error = true;
+  let number= 0;
+  do{
+    number = prompt(title);
+    if (number === null) {
+      message = "Input was cancelled.";
+      console.log();
+    } else if (number.trim() === "") {
+      message = "No input was provided.";
+    } else if (isNaN(number)) {
+      message = "The input is not a numeric value.";
+    } else if (number < min || number>max) {
+      message = "The number is out of range ("+min+"-"+max+")";
+    } else {
+      message = "Correct number";
+      error = false;
+    }
+  }while(error);
+  return number;
+}
+
 //todo: Function to prompt user for password options
 function getPasswordOptions() {
+  let passwordLength = numericValue("Introduce password lenght (8-128)",8,128);
 
 }
 
