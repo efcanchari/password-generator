@@ -28,8 +28,8 @@ This application allows employees to generate random passwords based on selected
 
 ## Deployment
 
-- The application is deployed at [Live URL Here].
-- The GitHub repository can be found at [GitHub URL Here].
+- The application is deployed at [https://efcanchari.github.io/password-generator/](https://efcanchari.github.io/password-generator/).
+- The GitHub repository can be found at [https://github.com/efcanchari/password-generator](https://github.com/efcanchari/password-generator).
 
 ## Application Quality
 
@@ -46,6 +46,8 @@ This application allows employees to generate random passwords based on selected
 
 ## Screenshot
 
-![Password Generator Demo](./assets/05-javascript-challenge-demo.png)
+![Password Generated](./assets/05-password-example.png)
+![Password Cancelled](./assets/05-password-cancell.png)
+![Password Missing Character](./assets/05-password-character-missing.png)
 
 ---
